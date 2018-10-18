@@ -5,7 +5,8 @@
 This is a simon game that creates a random series of lights and wait for the player to repeat that sequence.
 
 ## **DEMO:**
-https://nouraalhadlaq.github.io/simon/
+
+[**GAME LINK** ](https://nouraalhadlaq.github.io/simon/)
 
 ## **Used Technologies:**
 
@@ -31,6 +32,6 @@ https://nouraalhadlaq.github.io/simon/
 - Audio for each color.
 - add score counter.
 
-## **Screen Shot:**
+## **Screenshot:**
 
 ![screenshot of game](images/screenshot.png)
