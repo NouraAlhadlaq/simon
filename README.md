@@ -2,7 +2,7 @@
 
 ## **Description:**
 
-This is a simon game that creates a random series of lights and wait for the player to repeat that sequence.
+This is a simple web version of simon game that creates a random series of lights and wait for the player to repeat that sequence.
 
 ## **DEMO:**
 
@@ -20,7 +20,12 @@ This is a simon game that creates a random series of lights and wait for the pla
 - animate.css
 - Sweatalert
 - Google Fonts
-- [stackoverflow](https://stackoverflow.com/questions/43720936/how-to-create-blinking-text-with-css-only)
+- blinking animation: [stackoverflow](https://stackoverflow.com/questions/43720936/how-to-create-blinking-text-with-css-only)
+
+## **Challanges:**
+
+- How to light up colors one after another.
+- How to make the clicks after first round counts as one click.
 
 ## **Features:**
 
@@ -29,7 +34,7 @@ This is a simon game that creates a random series of lights and wait for the pla
 
 ## **Future Ideas:**
 
-- Audio for each color.
+- Adding audio for each color.
 - add score counter.
 
 ## **Screenshot:**
