@@ -5,6 +5,7 @@
 This is a simon game that creates a random series of lights and wait for the player to repeat that sequence.
 
 ## **DEMO:**
+https://nouraalhadlaq.github.io/simon/
 
 ## **Used Technologies:**
 
