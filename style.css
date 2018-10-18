@@ -1,0 +1,116 @@
+* {
+  margin: auto;
+}
+body {
+  background-image: url("images/background.jpg");
+  background-size: cover;
+  margin: 30px auto;
+  width: 600px;
+}
+
+h1 {
+  display: inline;
+  font-size: 81px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Orbitron", sans-serif;
+}
+.circle {
+  position: relative;
+  border: 5px solid black;
+  margin: 30px auto;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+.colorButton {
+  position: absolute;
+  border: 1px solid black;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 50%;
+  transform-origin: 0% 100%;
+}
+
+#color-0 {
+  transform: rotate(0deg);
+  background-color: brown;
+}
+.redGlow {
+  background-color: rgb(104, 7, 7);
+}
+#color-0:hover {
+  background-color: rgb(104, 7, 7);
+}
+#color-1 {
+  transform: rotate(90deg);
+  background-color: blue;
+}
+.blueGlow {
+  background-color: rgb(26, 26, 172);
+}
+#color-1:hover {
+  background-color: rgb(26, 26, 172);
+}
+#color-2 {
+  transform: rotate(180deg);
+  background-color: rgb(255, 251, 0);
+}
+.yellowGlow {
+  background-color: rgb(175, 175, 15);
+}
+#color-2:hover {
+  background-color: rgb(175, 175, 15);
+}
+#color-3 {
+  transform: rotate(270deg);
+  background-color: green;
+}
+.greenGlow {
+  background-color: rgb(13, 77, 13);
+}
+#color-3:hover {
+  background-color: rgb(13, 77, 13);
+}
+
+.light {
+  opacity: 0.5;
+}
+.start {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 150px;
+  left: 150px;
+  border-radius: 50%;
+  background-color: gray;
+  border: 5px solid black;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  outline: none;
+}
+
+.restart {
+  height: 160px;
+  width: 160px;
+  position: relative;
+  top: -200px;
+  left: -117px;
+  border-radius: 50%;
+  background-color: gray;
+  border: 5px solid black;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+  outline: none;
+}
+.blinker {
+  animation: blinker 2s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.5;
+  }
+}
